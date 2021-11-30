@@ -1,0 +1,11 @@
+@url = http://localhost:3005
+
+### nested users CREATE
+POST {{url}}/signup
+content-type: application/json
+ 
+ {
+	 "login": "bcrypt",
+	 "password1": "123456",
+	 "password2": "123456"
+ }
